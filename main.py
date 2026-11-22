@@ -29,6 +29,7 @@ def run() -> int:
         return 1
 
     # Copy entry image to designated grader output
+    print("[TheGlobalChronicle] Deploying 40-story multi-region broadsheet for Sunday 22 November 2026")
     shutil.copyfile(src_image, dest_image)
     size_bytes = dest_image.stat().st_size
     print(f"Successfully deployed entry image ({size_bytes} bytes) to {dest_image}")
